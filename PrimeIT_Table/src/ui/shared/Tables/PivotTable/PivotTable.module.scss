@@ -1,0 +1,20 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.lightRow {
+    background-color: #fff;
+}
+
+.darkRow {
+    background-color: #f9f9f9;
+}
+
+

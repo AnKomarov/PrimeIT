@@ -1,0 +1,16 @@
+{
+  "data": [
+    { "Article": "Bikes", "Region": "Germany", "LegalEntity": "11", "Version": "Actual", "Currency": "LC", "Measure": "Units", "value": 12000 },
+    { "Article": "Motorbikes", "Region": "Great Britain", "LegalEntity": "12", "Version": "Budget", "Currency": "USD", "Measure": "Gross Revenue", "value": 450000 },
+    { "Article": "Trucks", "Region": "China", "LegalEntity": "13", "Version": "Actual", "Currency": "EUR", "Measure": "Unit Price", "value": 98000 },
+    { "Article": "Cars", "Region": "Vietnam", "LegalEntity": "11", "Version": "Budget", "Currency": "LC", "Measure": "Units", "value": 32000 }
+  ],
+  "filters": {
+    "Article": ["All Articles", "Bikes", "Motorbikes", "Trucks", "Cars"],
+    "Region": ["All Regions", "Germany", "Great Britain", "China", "Vietnam"],
+    "LegalEntity": ["All Entities", "11", "12", "13"],
+    "Version": ["Actual", "Budget"],
+    "Currency": ["LC", "USD", "EUR"],
+    "Measure": ["Units", "Unit Price", "Gross Revenue"]
+  }
+}

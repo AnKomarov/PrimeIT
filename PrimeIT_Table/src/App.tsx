@@ -1,9 +1,10 @@
 import './App.css'
+import TableWrapper from './ui/Table/TableWrapper.tsx'
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <TableWrapper/>
     </>
   )
 }

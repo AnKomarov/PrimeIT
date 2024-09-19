@@ -1,0 +1,16 @@
+select {
+  padding: 5px;
+  margin: 5px;
+  &:hover {
+    border-color: blue;
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+    border-color: green;
+  }
+}
+
+.selectedOption {
+  background-color: yellow;
+}
