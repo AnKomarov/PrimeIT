@@ -3,7 +3,7 @@ import { TableData } from '../types/types.ts'
 export const retrieveData = (): Promise<TableData[]> => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      import('../../../public/data.json').then((jsonData) => {
+      import('../dataMock/data.json').then((jsonData) => {
         resolve(jsonData.data);
       });
     }, 500);

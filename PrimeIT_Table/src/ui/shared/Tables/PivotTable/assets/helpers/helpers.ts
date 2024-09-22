@@ -96,7 +96,6 @@ export const collapseDescendants = (state: ExpandedState, keys: string[]) => {
 
 export const getIsExpanded = (state: ExpandedState, keys: string[]): boolean => {
   let currentLevel: ExpandedStateNode | undefined = state[keys[0]];
-  debugger
   for (let i = 1; i < keys.length; i++) {
     if (!currentLevel || !currentLevel.expanded || !currentLevel.children) {
       return false;
@@ -109,7 +108,6 @@ export const getIsExpanded = (state: ExpandedState, keys: string[]): boolean => 
 
 export const getVisibleColumns = (expandedState: ExpandedState): string[] => {
   const columns = ['Article'];
-
   if (Object.values(expandedState).some((articleState) => articleState.expanded)) {
     columns.push('Region');
   }
